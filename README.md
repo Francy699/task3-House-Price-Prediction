@@ -9,6 +9,8 @@ This project implements **Linear Regression** using Python and scikit-learn to p
 
 **Linear Regression** is a supervised machine learning algorithm used to predict a continuous target variable based on one or more input features.
 
+![Linear Regression](https://github.com/user-attachments/assets/37557cc7-19aa-4e8f-b816-25825e046829)
+
 - It tries to find the **best-fitting straight line** (in 2D) or hyperplane (in higher dimensions) that minimizes the error between predicted and actual values.
 - **Equation of Linear Regression:**
   \[
@@ -53,7 +55,8 @@ df.head()
 - Display the first five rows of the dataset to understand its structure.
 
 
-!(<Screenshot 2025-04-28 165454.png>)
+!(https://github.com/user-attachments/assets/024b9b2e-c776-45b5-a0c2-7f6ac8805fb2)
+
 ---
 
 ### 4. Statistical Summary
@@ -87,7 +90,8 @@ df.columns
 ```
 - Print all column names.
 
-!(<Screenshot 2025-04-28 165517.png>)
+![Screenshot 2025-04-28 165517](https://github.com/user-attachments/assets/6df805eb-2f77-4906-b9ea-5640542e7ad6)
+
 
 ---
 
@@ -118,8 +122,8 @@ model.fit(X_train, y_train)
 ```
 - Create a **LinearRegression** object and train it on training data.
 
+![Screenshot 2025-04-28 165531](https://github.com/user-attachments/assets/bd2b3660-d519-43c5-876f-824624a094bc)
 
-![Model Building](<Screenshot 2025-04-28 165531.png>)
 ---
 
 ### 11. Model Intercept
@@ -157,7 +161,8 @@ plt.show()
 ```
 - Scatter plot comparing actual vs predicted prices.
 
-![scatter plot](<Screenshot 2025-04-28 165548.png>)
+![Screenshot 2025-04-28 165548](https://github.com/user-attachments/assets/cd264cf8-b544-49e3-9829-3158cdd3e602)
+
 
 
 ---
